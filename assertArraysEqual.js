@@ -19,23 +19,3 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-
-// const without = function(source, itemsToRemove) {
-//   let arrayToReturn = source.splice();
-//   for (i = 0; i < source.length; i++) {
-//     for (j = 0; j < itemsToRemove.length; j++) {
-//       if (source[i] === itemsToRemove[j]) {
-//         arrayToReturn.splice(i, 1);
-//       }
-//     }
-//   }
-//   return arrayToReturn;
-// }
-
-// let fruits = ["Banana", "Mango", "Strawberry", "Melon"];
-
-// console.log("Fruits = " + fruits);
-// without(fruits, ["Strawberry"]);
-// console.log("Now fruits = " + fruits);
-
-// assertArraysEqual(fruits, ["Banana", "Mango", "Strawberry", "Melon"]);
