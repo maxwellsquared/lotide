@@ -7,7 +7,9 @@ const assertEqual = function(actual, expected) {
   console.log(`✨ Assertion Passed: ${actual} === ${expected}`);
 };
 
-// TEST CODE
-assertEqual("Money", "Lightbulb");
-assertEqual(47, (40 + 7));
-assertEqual("Gonky", "Gonky");
+module.exports = assertEqual;
+
+// // TEST CODE
+// assertEqual("Money", "Lightbulb");
+// assertEqual(47, (40 + 7));
+// assertEqual("Gonky", "Gonky");
