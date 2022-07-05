@@ -1,6 +1,4 @@
 const eqArrays = require("./eqArrays");
-const assertArraysEqual = require("./assertArraysEqual");
-
 
 const middle = function(array) {
   // initialize an empty array
