@@ -1,8 +1,8 @@
 {
   "name": "@doublemaxwell/lotide",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A little clone of Lodash made for learning purposes!",
-  "main": "assertArraysEqual.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -22,5 +22,8 @@
   "devDependencies": {
     "chai": "^4.3.6",
     "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "eslint": "^8.19.0"
   }
 }
