@@ -1,6 +1,3 @@
-const eqArrays = require("./eqArrays");
-const countLetters = require("./countLetters");
-
 const letterPositions = function(sentence) {
   const results = {};
   for (let position in sentence) {
