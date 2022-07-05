@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@doublemaxwell/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A little clone of Lodash made for learning purposes!",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/maxwellsquared/lotide.git"
   },
-  "author": "",
+  "author": "Max K",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maxwellsquared/lotide/issues"
